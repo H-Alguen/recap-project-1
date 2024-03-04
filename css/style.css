@@ -50,7 +50,7 @@ body{
 
     border-radius: 2rem;
     /* height: 250px; */
-    
+    position: relative;
 }
 .question-card h2{
     width: 50%;
@@ -84,4 +84,10 @@ body{
 
     font-size: 12px;
     font-weight: 700;
+}
+
+.bookmark-img{
+    position: absolute;
+    right: 25px;
+    top: -5px
 }
