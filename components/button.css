@@ -1,0 +1,9 @@
+
+.answer-button{
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 5px 5px 4px;
+    border: solid;
+    font-weight: 600;
+    background-color: var(--pr-btn-color);
+}

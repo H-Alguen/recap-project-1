@@ -1,0 +1,47 @@
+
+.question-card{
+    background-color: var(--bg-card-color);
+    color: var(--dark-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 2rem;
+    gap: 2rem;
+    width: 80%;
+    flex: 1;
+
+    border-radius: 2rem;
+    /* height: 250px; */
+    position: relative;
+}
+.question-card h2{
+    width: 50%;
+    color: var(--dark-text-color);
+    text-align: center;
+}
+
+.card-chips{
+    list-style-type: none;
+    display: flex;
+    align-self: start;
+    padding: 0,5rem;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.card-chip{
+    padding: 0.3rem;
+    gap: 1rem;
+
+    background-color: var(--chips-pr-color);
+    border-radius: 8px;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.bookmark-img{
+    position: absolute;
+    right: 25px;
+    top: -5px
+}
